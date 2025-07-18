@@ -12,7 +12,7 @@ PoTaSQ Chats is designed to provide a modern, secure, and feature-rich chat expe
 - Admin controls for user and chat moderation
 - Typing indicators, message edit/delete/reply
 - Per-user private conversation deletion
-- Robust UI/UX and branding.
+- Robust UI/UX and branding
 
 ## Setup Instructions
 
