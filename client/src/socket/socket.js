@@ -4,15 +4,13 @@ import { io } from 'socket.io-client';
 import { useEffect, useState } from 'react';
 
 // Socket.io connection URL
-const SOCKET_URL = import.meta.env.VITE_SOCKET_URL || 'http://localhost:5000';
-
-// Create socket instance
-export const socket = io(SOCKET_URL, {
-  autoConnect: false,
-  reconnection: true,
-  reconnectionAttempts: 5,
-  reconnectionDelay: 1000,
+export const socket = io('http://localhost:3001', {
+  autoConnect: true,
+  transports: ['websocket'] // Force WebSocket transport for testing
 });
+
+console.log('Socket.io version:', io.version);
+console.log('Connection URL:', socket.io.uri);
 
 // Custom hook for using socket.io
 export const useSocket = () => {
@@ -55,6 +53,7 @@ export const useSocket = () => {
     // Connection events
     const onConnect = () => {
       setIsConnected(true);
+      console.log('Connected to Socket.io server!', socket.id, 'Transport:', socket.io.engine.transport.name);
     };
 
     const onDisconnect = () => {
@@ -78,7 +77,6 @@ export const useSocket = () => {
     };
 
     const onUserJoined = (user) => {
-      // You could add a system message here
       setMessages((prev) => [
         ...prev,
         {
@@ -91,7 +89,6 @@ export const useSocket = () => {
     };
 
     const onUserLeft = (user) => {
-      // You could add a system message here
       setMessages((prev) => [
         ...prev,
         {
@@ -146,4 +143,4 @@ export const useSocket = () => {
   };
 };
 
-export default socket; 
+export default socket;

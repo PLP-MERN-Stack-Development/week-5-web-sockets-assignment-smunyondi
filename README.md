@@ -1,78 +1,82 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=19941396&assignment_repo_type=AssignmentRepo)
-# Real-Time Chat Application with Socket.io
+# PoTaSQ Chats
 
-This assignment focuses on building a real-time chat application using Socket.io, implementing bidirectional communication between clients and server.
+PoTaSQ Chats is a real-time MERN + Socket.io chat application supporting group and private messaging, user registration/login, online user list, message persistence, edit/delete/reply features, typing indicators, and robust admin controls. Built for seamless communication and collaboration.
 
-## Assignment Overview
+## Project Overview
 
-You will build a chat application with the following features:
-1. Real-time messaging using Socket.io
-2. User authentication and presence
-3. Multiple chat rooms or private messaging
-4. Real-time notifications
-5. Advanced features like typing indicators and read receipts
+PoTaSQ Chats is designed to provide a modern, secure, and feature-rich chat experience. It supports:
+- Group and private messaging
+- Persistent message storage
+- User registration, login, and management
+- Admin controls for user and chat moderation
+- Typing indicators, message edit/delete/reply
+- Per-user private conversation deletion
+- Robust UI/UX and branding
 
-## Project Structure
+## Setup Instructions
 
-```
-socketio-chat/
-├── client/                 # React front-end
-│   ├── public/             # Static files
-│   ├── src/                # React source code
-│   │   ├── components/     # UI components
-│   │   ├── context/        # React context providers
-│   │   ├── hooks/          # Custom React hooks
-│   │   ├── pages/          # Page components
-│   │   ├── socket/         # Socket.io client setup
-│   │   └── App.jsx         # Main application component
-│   └── package.json        # Client dependencies
-├── server/                 # Node.js back-end
-│   ├── config/             # Configuration files
-│   ├── controllers/        # Socket event handlers
-│   ├── models/             # Data models
-│   ├── socket/             # Socket.io server setup
-│   ├── utils/              # Utility functions
-│   ├── server.js           # Main server file
-│   └── package.json        # Server dependencies
-└── README.md               # Project documentation
-```
+1. **Clone the repository**
+   ```sh
+   git clone <your-repo-url>
+   cd <repo-folder>
+   ```
+2. **Install dependencies (client & server)**
+   ```sh
+   pnpm install
+   ```
+3. **Run the application (both client and server)**
+   ```sh
+   pnpm dev
+   ```
+   This will start both the React client and Node.js server.
+4. **Access the app**
+   - Open your browser and go to `http://localhost:3000` (client)
+   - The server runs on `http://localhost:3001` by default
 
-## Getting Started
+## Features Implemented
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Follow the setup instructions in the `Week5-Assignment.md` file
-4. Complete the tasks outlined in the assignment
+- Real-time group and private messaging (Socket.io)
+- User registration and login (server-side JSON, API endpoints)
+- Online users list and registered users list (auto-updating)
+- Persistent message storage (`messages.json`)
+- Edit, delete, and reply to messages
+- Typing indicators
+- Per-user private conversation deletion (persistent)
+- Admin account (`simeon`/`123456`) with dedicated admin page
+- Admin controls: view all chats, see all users, delete users (with confirmation), force logout for deleted users
+- UI branding: "PoTaSQ Chats" title, favicon, modern layout
+- Notification system for actions (e.g., delete)
+- Logout and account deletion (with confirmation)
+- Group chat and private chat tabs, searchable user list
+- Error handling and robust socket event management
 
-## Files Included
+## Screenshots
 
-- `Week5-Assignment.md`: Detailed assignment instructions
-- Starter code for both client and server:
-  - Basic project structure
-  - Socket.io configuration templates
-  - Sample components for the chat interface
+Below are screenshots showcasing the application's UI and features:
 
-## Requirements
+| Login/Register | Inbox | Group Chat | Admin Panel | More |
+|---|---|---|---|---|
+| ![Login](Screenshots/Screenshot(79).png) | ![Inbox](Screenshots/Screenshot(80).png) | ![Group](Screenshots/Screenshot(81).png) | ![Admin](Screenshots/Screenshot(82).png) | ![More](Screenshots/Screenshot(83).png) |
+| ![Inbox](Screenshots/Screenshot(84).png) | ![Inbox](Screenshots/Screenshot(85).png) | ![Group](Screenshots/Screenshot(86).png) | ![Admin](Screenshots/Screenshot(87).png) | ![More](Screenshots/Screenshot(88).png) |
+| ![Inbox](Screenshots/Screenshot(89).png) | ![Inbox](Screenshots/Screenshot(90).png) | ![Group](Screenshots/Screenshot(91).png) | ![Admin](Screenshots/Screenshot(92).png) | ![More](Screenshots/Screenshot(93).png) |
+| ![Inbox](Screenshots/Screenshot(94).png) | ![Inbox](Screenshots/Screenshot(95).png) | ![Group](Screenshots/Screenshot(96).png) |  |  |
 
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Basic understanding of React and Express
+## Future Improvements
 
-## Submission
+- Enhanced styling with TailwindCSS
+- User-created groups
+- Sending images and videos
+- Message encryption
+- Improved and secure storage
+- More secure authentication
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+## Author
 
-1. Complete both the client and server portions of the application
-2. Implement the core chat functionality
-3. Add at least 3 advanced features
-4. Document your setup process and features in the README.md
-5. Include screenshots or GIFs of your working application
-6. Optional: Deploy your application and add the URLs to your README.md
+**Simeon Munyondi**
 
-## Resources
+---
 
-- [Socket.io Documentation](https://socket.io/docs/v4/)
-- [React Documentation](https://react.dev/)
-- [Express.js Documentation](https://expressjs.com/)
-- [Building a Chat Application with Socket.io](https://socket.io/get-started/chat) 
+*Not yet deployed. Deployment instructions and URLs will be added once available.*
+
+For any questions or feedback, please contact the author.

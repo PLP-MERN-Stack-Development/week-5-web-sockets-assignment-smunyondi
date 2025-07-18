@@ -1,0 +1,32 @@
+{
+  "joan2": [
+    "chrome"
+  ],
+  "chrome": [
+    "joan2",
+    "simeon2345",
+    "joan",
+    "EdgeInco"
+  ],
+  "kamau2": [
+    "chrome",
+    "simeon2345"
+  ],
+  "simeon2345": [
+    "chrome"
+  ],
+  "EdgeInco": [
+    "BraveInco",
+    "ChromeInco"
+  ],
+  "ChromeInco": [
+    "BraveInco"
+  ],
+  "BraveInco": [
+    "EdgeInco",
+    "ChromeInco"
+  ],
+  "joan": [
+    "EdgeInco"
+  ]
+}

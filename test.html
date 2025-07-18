@@ -1,0 +1,8 @@
+<!-- test.html -->
+<script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+<script>
+  // Force WebSocket transport for testing
+  const socket = io('http://localhost:3001', { transports: ['websocket'] });
+  socket.on('connect', () => console.log("Connected!", socket.id));
+  socket.on('connect_error', (err) => console.error("Failed:", err));
+</script>

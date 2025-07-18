@@ -1,0 +1,127 @@
+[
+  {
+    "id": 1752841577415,
+    "sender": "EdgeInco",
+    "senderId": "VV66o5VjEof0fJx3AAAJ",
+    "receiver": "chrome",
+    "message": "ghjghjfgghjhjjhdgh",
+    "timestamp": "2025-07-18T12:26:17.415Z",
+    "isPrivate": true,
+    "replyTo": null
+  },
+  {
+    "id": 1752841601947,
+    "sender": "chrome",
+    "senderId": "0DQeUrq29PM8pFTNAAAJ",
+    "receiver": "EdgeInco",
+    "message": "nbnfndbcvncbnbnv",
+    "timestamp": "2025-07-18T12:26:41.947Z",
+    "isPrivate": true,
+    "replyTo": 1752841577415
+  },
+  {
+    "id": 1752841674057,
+    "sender": "joan",
+    "senderId": "rKGF8Q0tLAJ_qdscAAAP",
+    "receiver": "EdgeInco",
+    "message": "gfhfdhgsgfsfdgdf",
+    "timestamp": "2025-07-18T12:27:54.057Z",
+    "isPrivate": true,
+    "replyTo": null
+  },
+  {
+    "id": 1752841686519,
+    "sender": "joan",
+    "senderId": "c0I2gaGS5RmZQXVlAAAH",
+    "receiver": "chrome",
+    "message": "sdgsdgsgffghd",
+    "timestamp": "2025-07-18T12:28:06.519Z",
+    "isPrivate": true,
+    "replyTo": null
+  },
+  {
+    "id": 1752841710604,
+    "sender": "EdgeInco",
+    "senderId": "HEIR6NcmMTQHcHj6AAAV",
+    "receiver": "joan",
+    "message": "fghdfgfsfdgfg",
+    "timestamp": "2025-07-18T12:28:30.604Z",
+    "isPrivate": true,
+    "replyTo": 1752841674057
+  },
+  {
+    "id": 1752841721430,
+    "sender": "chrome",
+    "senderId": "PUVxKhd18Bpq8lXnAAAH",
+    "receiver": "joan",
+    "message": "",
+    "timestamp": "2025-07-18T12:28:41.430Z",
+    "isPrivate": true,
+    "replyTo": null,
+    "deleted": true
+  },
+  {
+    "id": 1752862626456,
+    "sender": "kamau",
+    "senderId": "CqFtScgwwCuSGse0AAAD",
+    "receiver": "chrome",
+    "message": "yoh chrome",
+    "timestamp": "2025-07-18T18:17:06.456Z",
+    "isPrivate": true,
+    "replyTo": null
+  },
+  {
+    "id": 1752862685128,
+    "sender": "chrome",
+    "senderId": "4RUJGruvsDkeiXFQAAAH",
+    "receiver": "kamau",
+    "message": "niambie Kamau",
+    "timestamp": "2025-07-18T18:18:05.128Z",
+    "isPrivate": true,
+    "replyTo": 1752862626456
+  },
+  {
+    "id": 1752862744273,
+    "sender": "kamau",
+    "senderId": "pR5d9FVPZTEyOpiXAAAH",
+    "receiver": "chrome",
+    "message": "Uko freshi?",
+    "timestamp": "2025-07-18T18:19:04.273Z",
+    "isPrivate": true,
+    "replyTo": 1752862685128
+  },
+  {
+    "id": 1752862802321,
+    "sender": "chrome",
+    "senderId": "UL2dQBXeLUmaKBvgAAAG",
+    "receiver": "kamau",
+    "message": "Kabiisa",
+    "timestamp": "2025-07-18T18:20:02.321Z",
+    "isPrivate": true,
+    "replyTo": 1752862744273
+  },
+  {
+    "message": "Majamaa",
+    "sender": "kamau",
+    "id": 1752862969613,
+    "senderId": "tFUECCrVYv55GG8YAAAF",
+    "timestamp": "2025-07-18T18:22:49.613Z",
+    "replyTo": null
+  },
+  {
+    "message": "uko na gani leo?",
+    "sender": "EdgeInco",
+    "replyTo": 1752862969613,
+    "id": 1752863025812,
+    "senderId": "NghCAhNyiIV8wsujAAAF",
+    "timestamp": "2025-07-18T18:23:45.812Z"
+  },
+  {
+    "message": "Anachaji budah",
+    "sender": "chrome",
+    "replyTo": 1752863025812,
+    "id": 1752863152841,
+    "senderId": "iU9OjahjRoIRcowSAAAD",
+    "timestamp": "2025-07-18T18:25:52.842Z"
+  }
+]
